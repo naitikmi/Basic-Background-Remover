@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.563rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lightgrey;
+}
+
+h2 {
+    font-size: 3.125rem;
+    color: rgb(105, 104, 104);
+}
+
+
+form{
+    /* text-align: left; */
+    padding: 2%;
+    width : 80%;
+    height : 40%;
+    border: 2px solid rgb(117, 109, 109);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(241, 117, 117),lightblue,lightgreen);
+}
+
+#file{
+    border: 2px solid gray;
+    border-radius: 80%;
+    padding: 5%;
+    width: 60%;
+    font-size: 20px;
+    margin-right: 2%;
+    background-color: lightgrey;
+}
+
+input[type= button ]{
+    padding: 1%;
+    margin: 1%;
+    width: 20%;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: lightblue;
+}
+
+button{
+    padding: 1%;
+    width: 40%;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgb(247, 247, 83);
+   
+}
+
+input[type=button]:hover{
+    background-color: rgb(160, 200, 235);
+}
+
+button:hover{
+    background-color: rgb(212, 212, 185);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Photo Background Remover</title>
+</head>
+<body>
+    <div>
+        <h2>Photo Background Remover</h2>
+        <form>
+            <div class="container">
+            <label for="file">Select file :</label>
+            <br><br>
+            <input id="file" type="file"/>
+            </div>
+            <input type="button" onclick="uploadfile()" value="Upload"></input>
+        </form>
+        <button onclick="downloadFile()">Download</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
